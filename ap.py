@@ -12,7 +12,7 @@ similarity_url = "https://drive.google.com/file/d/1SGX2Sdtk1bgXOGfvDptSI_v8WLJ2T
 movies_url = "https://drive.google.com/file/d/1UMTxYoAz4BKHeZX0_JQBNT8bvJDJ1lSq/view?usp=sharing"
 
 gdown.download(similarity_url, "similarity.pkl", quiet=False)
-gdown.download(movies_url, "movies.pkl", quiet=False)
+gdown.download(movies_url, "movies_dict.pkl", quiet=False)
 
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US".format(movie_id)
