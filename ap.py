@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 import requests
 
-import gdown
+import gdown # type: ignore
 
 # Replace with your Google Drive file ID
 similarity_url = "https://drive.google.com/file/d/1SGX2Sdtk1bgXOGfvDptSI_v8WLJ2THIZ/view?usp=sharing"
